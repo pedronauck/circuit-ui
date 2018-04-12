@@ -1,26 +1,35 @@
-import { resolve as pathResolve } from 'path';
-
 // Plugins
 import reactSvg from 'rollup-plugin-react-svg';
 import replace from 'rollup-plugin-replace';
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
+import commonjs from 'rollup-plugin-commonjs';
 
 // Shared config
 const shared = {
   external: [
     'emotion',
     'emotion-theming',
-    'lodash',
     'polished',
     'react',
     'react-dom',
     'react-emotion',
-    'react-modal'
+    'react-modal',
+    'prop-types',
+    'recompose',
+    'react',
+    'facepaint'
   ],
   plugins: [
+    resolve({
+      module: true,
+      modulesOnly: false
+    }),
     babel({
       exclude: 'node_modules/**'
+    }),
+    commonjs({
+      include: 'node_modules/**'
     }),
     reactSvg({
       jsx: false
@@ -32,15 +41,6 @@ const shared = {
         STORYBOOK: false,
         PRODUCTION: process.env.NODE_ENV === 'production'
       }
-    }),
-    resolve({
-      module: true,
-      main: true,
-      browser: true,
-      preferBuiltins: false,
-      // eslint-disable-next-line
-      jail: pathResolve('.'),
-      modulesOnly: true
     })
   ]
 };

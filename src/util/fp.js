@@ -4,11 +4,9 @@
  * - Add polyfills.
  */
 
-import { flow, curry } from 'lodash/fp';
+import { flow, curry, compose, get } from 'lodash/fp';
 
-export { compose } from 'lodash/fp';
-
-export { flow, curry };
+export { flow, curry, compose, get };
 
 // Requires polyfill
 export const values = obj => Object.values(obj);
