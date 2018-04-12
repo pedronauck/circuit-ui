@@ -66,5 +66,25 @@ export default [
     input: 'src/themes/index.js',
     output: { file: 'dist/themes.js', format: 'es' },
     ...shared
+  },
+  {
+    input: 'src/index.js',
+    output: { file: 'dist/index.cjs.js', format: 'cjs' },
+    ...shared
+  },
+  {
+    input: 'src/util/index.js',
+    output: { file: 'dist/util.cjs.js', format: 'cjs' },
+    ...shared
+  },
+  {
+    input: 'src/styles/index.js',
+    output: { file: 'dist/styles.cjs.js', format: 'cjs' },
+    ...shared
+  },
+  {
+    input: 'src/themes/index.js',
+    output: { file: 'dist/themes.cjs.js', format: 'cjs' },
+    ...shared
   }
 ];
