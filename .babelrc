@@ -28,11 +28,11 @@
           {
             "autoLabel": true,
             "hoist": true,
-            "sourceMap": true
+            "sourceMap": false
           }
         ]
       ],
-      "presets": [["env", { "modules": false }], "react", "stage-3"]
+      "presets": ["minify", ["env", { "modules": false }], "react", "stage-3"]
     },
     "test": {
       "plugins": [
