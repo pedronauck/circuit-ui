@@ -82,6 +82,7 @@ export const spacings = {
 };
 
 export const iconSizes = {
+  byte: '14px',
   kilo: '16px',
   mega: '24px'
 };
@@ -169,3 +170,7 @@ export const breakpoints = {
 };
 
 export const mq = createMediaQueries(breakpoints);
+
+export const transitions = {
+  default: `200ms ease-in-out`
+};

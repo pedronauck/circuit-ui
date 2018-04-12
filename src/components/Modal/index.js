@@ -1,5 +1,7 @@
-import { ModalProvider, ModalConsumer as Modal } from './ModalProvider';
+import Modal from './Modal';
 
-export { ModalProvider };
+export { ModalProvider, ModalConsumer } from './ModalProvider';
+
+export { DEFAULT_APP_ELEMENT } from './Modal';
 
 export default Modal;
