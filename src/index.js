@@ -15,11 +15,7 @@ export { default as Select } from './components/Select';
 export { default as TextArea } from './components/TextArea';
 
 // Actions
-export {
-  default as Button,
-  MessageIcon,
-  MessageButton
-} from './components/Button';
+export { default as Button } from './components/Button';
 
 export { default as ButtonGroup } from './components/ButtonGroup';
 export { default as CloseButton } from './components/CloseButton';
@@ -27,7 +23,11 @@ export { default as SvgButton } from './components/SvgButton';
 export { default as Toggle } from './components/Toggle';
 
 // Notifications
-export { default as Message } from './components/Message';
+export {
+  default as Message,
+  MessageIcon,
+  MessageButton
+} from './components/Message';
 export { default as NotificationBanner } from './components/NotificationBanner';
 export { default as NotificationList } from './components/NotificationList';
 
