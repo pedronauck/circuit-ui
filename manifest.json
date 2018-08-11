@@ -1,6 +1,6 @@
 {
   "vendors.js": "/circuit-ui/static/js/vendors.9d20aede.js",
-  "app.js": "/circuit-ui/static/js/app.21cd49c9.js",
+  "app.js": "/circuit-ui/static/js/app.b23d5021.js",
   "docs-content-changelog.js": "/circuit-ui/static/js/docs-content-changelog.3b853602.js",
   "docs-content-index.js": "/circuit-ui/static/js/docs-content-index.ad1f1248.js",
   "docs-content-principles.js": "/circuit-ui/static/js/docs-content-principles.04545d08.js",
@@ -26,7 +26,7 @@
   "docs-content-styles-spacing.js": "/circuit-ui/static/js/docs-content-styles-spacing.ffa11675.js",
   "docs-content-styles-theming.js": "/circuit-ui/static/js/docs-content-styles-theming.e22c8910.js",
   "docs-content-styles-typography.js": "/circuit-ui/static/js/docs-content-styles-typography.be6aeffd.js",
-  "runtime~app.js": "/circuit-ui/static/js/runtime~app.15c8563b184b2dc11d91.js",
+  "runtime~app.js": "/circuit-ui/static/js/runtime~app.22654fd2611e36a31854.js",
   "static/img/logo.png": "/circuit-ui/static/img/logo.541d6759.png",
   "index.html": "/circuit-ui/index.html"
 }
