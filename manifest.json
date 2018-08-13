@@ -1,6 +1,6 @@
 {
   "vendors.js": "/static/js/vendors.ba50b39d.js",
-  "app.js": "/static/js/app.8f437ef7.js",
+  "app.js": "/static/js/app.e3209630.js",
   "docs-content-changelog.js": "/static/js/docs-content-changelog.3b853602.js",
   "docs-content-index.js": "/static/js/docs-content-index.a875e6ef.js",
   "docs-content-principles.js": "/static/js/docs-content-principles.04545d08.js",
@@ -40,7 +40,7 @@
   "docs-content-styles-spacing.js": "/static/js/docs-content-styles-spacing.2bc89f56.js",
   "docs-content-styles-theme-reference.js": "/static/js/docs-content-styles-theme-reference.b2f54bfe.js",
   "docs-content-styles-typography.js": "/static/js/docs-content-styles-typography.2e9b19f8.js",
-  "runtime~app.js": "/static/js/runtime~app.a354ac5874201026374c.js",
+  "runtime~app.js": "/static/js/runtime~app.11b29ae1fb816773abbd.js",
   "static/img/logo.png": "/static/img/logo.541d6759.png",
   "index.html": "/index.html"
 }
